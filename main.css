@@ -1,0 +1,319 @@
+.header {
+   display: flex;
+   padding: 32px 70px;
+   justify-content: space-between;
+}
+
+.logo img {
+   width: 168px;
+   height: auto;
+}
+
+body {
+   font-family: 'Inter';
+   font-style: normal;
+}
+
+
+.menu ul {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   gap: 40px;
+}
+
+.menu ul li a {
+   text-decoration: none;
+   color: #333333;
+}
+
+
+.menu ul li {
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 160%;
+   display: inline-block;
+}
+
+.contactBtn a {
+   display: block;
+   width: 200px;
+   height: 54px;
+   text-decoration: none;
+   color: #FFFFFF;
+   background: #0099FF;
+   line-height: 54px;
+   text-align: center;
+   font-weight: 500;
+   font-size: 18px;
+   border-radius: 4px;
+}
+
+.homeContent {
+   display: flex;
+   justify-items: stretch;
+   align-items: center;
+   margin: 0 5% 100px;
+}
+
+.homeText {
+   width: 50%;
+}
+
+.homeText h1 {
+   font-weight: 700;
+   font-size: 60px;
+   line-height: 110%;
+   letter-spacing: -0.015em;
+   color: #333333;
+}
+
+.homeText p {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 160%;
+   color: #333333;
+
+}
+
+.homePhoto {
+   width: 50%;
+   height: auto;
+}
+
+.homeBtn .start,
+.homeBtn .more {
+   display: inline-block;
+   margin-right: 16px;
+   width: 200px;
+   height: 53px;
+   line-height: 53px;
+   text-align: center;
+   text-decoration: none;
+   background: #0099FF;
+   border: 1px solid #FFFFFF;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 18px;
+}
+
+.homeBtn .more {
+   background: #FFFFFF;
+   color: #0099FF;
+   border-color: #0099FF;
+}
+
+.services {
+   background: rgba(0, 153, 255, 0.04);
+   padding: 120px 80px;
+   text-align: center;
+   color: #333333;
+}
+
+.services .servicesText h6 {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 130%;
+   margin-block-start: 0;
+   margin-block-end: 0;
+}
+
+.services .servicesText h2 {
+   font-weight: 700;
+   font-size: 48px;
+   line-height: 138%;
+}
+
+.services .servicesText p {
+   display: inline-block;
+   width: 612px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 156%;
+   color: #494949;
+}
+
+.servicesItems {
+   display: flex;
+   gap: 16px;
+   justify-content: center;
+   margin-top: 72px;
+}
+
+.servicesItems .sItem {
+   background: #FFFFFF;
+   border-radius: 4px;
+   height: 342px;
+   padding: 0 26px;
+   position: relative;
+}
+
+.servicesItems .sItem a {
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+}
+
+.servicesItems .sItem img {
+   width: 100px;
+   padding-top: 57px;
+   padding-bottom: 16px;
+}
+
+.servicesItems .sItem h4 {
+   font-weight: 700;
+   font-size: 32px;
+   line-height: 133%;
+   color: #333333;
+   margin-block-start: 0;
+   margin-block-end: 0;
+}
+
+.servicesItems .sItem p {
+   width: 255px;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 155%;
+   color: #494949;
+}
+
+.aboutContent {
+   position: absolute;
+   width: 1440px;
+   height: 851px;
+   left: 0px;
+   top: 1857px;
+}
+.aboutContentLine {
+   position: absolute;
+   width: 1326px;
+   height: 651px;
+   left: 34px;
+   top: 80px;
+}
+
+.aboutPhoto {
+   position: absolute;
+   width: 686px;
+   height: 651px;
+   left: 34px;
+   top: 80px;
+}
+
+.aboutText {
+   position: absolute;
+   width: 632px;
+   height: 369px;
+   left: 728px;
+   top: 215px;
+}
+
+.moreAbout a{
+   display: inline-block;
+   margin-right: 16px;
+   width: 200px;
+   height: 53px;
+   line-height: 53px;
+   text-align: center;
+   text-decoration: none;
+   background: #0099FF;
+   border: 1px solid #FFFFFF;
+   border-radius: 4px;
+   color: #FFFFFF;
+   font-weight: 400;
+   font-size: 18px;
+   
+} 
+
+.services, .meetOurTeam { 
+   background: rgba(0, 153, 255, 0.04); 
+   padding: 120px 80px; text-align: center; 
+   color: #333333; 
+   margin-block-start: 0; 
+   margin-block-end: 0; 
+} 
+   .meetOurTeam { 
+      padding-bottom: 210px; 
+   }
+
+   .services .servicesText h6, .meetOurTeam h6 { 
+      font-weight: 600; 
+      font-size: 20px; 
+      line-height: 130%; 
+      margin-block-start: 0; 
+      margin-block-end: 0; 
+}
+
+.services .servicesText h2, .meetOurTeam h2 { 
+   font-weight: 700; 
+   font-size: 48px; 
+   line-height: 138%; 
+}
+
+.meetText { 
+   width: 494px;
+   margin: 0 auto;
+}
+
+.meetItems { 
+   display: flex; 
+   justify-content: center; 
+   gap: 16px; 
+   margin-top: 60px; 
+}
+
+.mItem{ 
+   position: relative; 
+}
+
+.meetItems .mItem img { 
+   width: 308px; 
+   border-radius: 5px; 
+}
+
+.meetItems .mItem .mItemDesc .contact img{ 
+   width: 15px; 
+   padding-right: 8px; 
+}
+
+.meetItems .mItem .mItemDesc { 
+   background: #FFFFFF; 
+   position: absolute; 
+   top: 80%; 
+   left: 24px; 
+   right: 24px; 
+   height: 133px; 
+   box-shadow: 0px 10px 20px rgba(164, 217, 253, 0.15); 
+   border-radius: 5px; 
+   text-align: left; 
+}
+
+.meetItems .mItem .mItemDesc .contact { 
+   padding-left: 8px; 
+   padding-top: 8px; 
+}
+
+.meetItems .mItem .mItemDesc .name { 
+   padding-left: 8px; 
+   padding-top: 16px; 
+   font-weight: 700; 
+   font-size: 24px; 
+   line-height: 28px; 
+   color: #333333; 
+}
+
+.meetItems .mItem .mItemDesc .position { 
+   padding-left: 8px; 
+   padding-top: 16px; 
+   font-weight: 400; 
+   font-size: 18px; 
+   line-height: 160%; 
+   color: #494949; 
+}
